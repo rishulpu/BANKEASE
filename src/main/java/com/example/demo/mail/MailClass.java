@@ -19,7 +19,7 @@ public class MailClass {
 		sm.setText("Welcome to BankEase!\n\nTo complete your verification process, please use the One-Time Password (OTP) provided below:\n\nOTP: " + otp + 
 		           "\n\nThis OTP is valid for the next 10 minutes. For your security, please do not share this OTP with anyone, including BankEase representatives." +
 		           "\n\nIf you did not request this OTP, please contact our support team immediately." +
-		           "\n\nThank you for choosing BankEase – Banking made easy and secure.");
+		           "\n\nThank you for choosing BankEase – Banking made easy life.");
 		massage.send(sm);
 		
 		return "Otp send Successfully";
